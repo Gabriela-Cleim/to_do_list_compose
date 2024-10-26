@@ -18,17 +18,23 @@ class MainActivity : ComponentActivity() {
         setContent {
             ToDoListComposeTheme {
 
+                // Crio uma variavel para receber a navController
                 val navController = rememberNavController()
 
+                // Aqui estou criando o objeto da navcontroller
                 NavHost(navController = navController, startDestination = "taskList") {
                     composable(
+                        // Defino o id que vai identificar a tela
                         route = "taskList"
                     ){
+                        // Chamo a minha tela e passo o navController
                         TaskList(navController)
                     }
                     composable(
+                        // Defino o id que vai identificar a tela
                         route = "saveTask"
                     ){
+                        // Chamo a minha tela e passo o navController
                         SaveTask(navController)
                     }
                 }
