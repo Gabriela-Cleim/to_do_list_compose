@@ -10,6 +10,7 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.res.vectorResource
 import androidx.navigation.NavController
 import com.example.todolistcompose.R
+import com.example.todolistcompose.ui.theme.White
 
 @SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")
 @Composable
@@ -18,7 +19,7 @@ fun TaskList(navController: NavController){
     // Aqui define a tela como um ttodo
     Scaffold (
         // Define a cor de fundo da tela
-        containerColor = Color.White,
+        containerColor = White,
         // Cria um botão flutuante
         floatingActionButton = {
             FloatingActionButton(
