@@ -3,6 +3,7 @@ package com.example.todolistcompose.view
 import android.annotation.SuppressLint
 import androidx.compose.foundation.Image
 import androidx.compose.material3.FloatingActionButton
+import androidx.compose.material3.Icon
 import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
@@ -30,7 +31,11 @@ fun TaskList(navController: NavController){
                 }
             ) {
                 // Define o icone do botão
-                Image(imageVector = ImageVector.vectorResource(id = R.drawable.ic_add), contentDescription = null )
+                Icon(
+                    imageVector = ImageVector.vectorResource(id = R.drawable.ic_add),
+                    contentDescription = null,
+                    tint = White
+                )
             }
         }
     ){
