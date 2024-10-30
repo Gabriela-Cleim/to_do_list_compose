@@ -30,7 +30,9 @@ import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.example.todolistcompose.R
+import com.example.todolistcompose.components.Button
 import com.example.todolistcompose.components.TextBox
+import com.example.todolistcompose.components.TopBar
 import com.example.todolistcompose.ui.theme.RADIO_BUTTON_GREEN_DISABLE
 import com.example.todolistcompose.ui.theme.RADIO_BUTTON_GREEN_SELECTED
 import com.example.todolistcompose.ui.theme.RADIO_BUTTON_RED_DISABLE
@@ -63,7 +65,7 @@ fun SaveTask(navController: NavController){
                     }
                 },
                 title = {
-                    Text("Save Task")
+                    Text("Create Task")
                 }
 
             )
@@ -162,6 +164,11 @@ fun SaveTask(navController: NavController){
                 )
 
             }
+
+            Button(onClick = {
+
+            }, modifier = Modifier.fillMaxWidth().height(80.dp).padding(20.dp),
+                text = "Save")
         }
     }
 }
