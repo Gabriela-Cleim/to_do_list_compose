@@ -11,6 +11,7 @@ val PurpleGrey40 = Color(0xFF625b71)
 val Pink40 = Color(0xFF7D5260)
 
 val White = Color(0xFFFFFFFF)
+val RED = Color(0xFFFF0000)
 
 val Black = Color(0xFF000000)
 val RADIO_BUTTON_GREEN_DISABLE = Color(0xFF7CEC64)

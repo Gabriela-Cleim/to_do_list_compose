@@ -9,11 +9,13 @@ import androidx.compose.material.TopAppBar
 import androidx.compose.material3.Icon
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.res.vectorResource
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.example.todolistcompose.R
+import com.example.todolistcompose.ui.theme.RED
 import com.example.todolistcompose.ui.theme.White
 
 @SuppressLint("UnusedMaterialScaffoldPaddingParameter")
