@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1048955541241",
+    "project_id": "to-do-list-compose-a9aa5",
+    "storage_bucket": "to-do-list-compose-a9aa5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1048955541241:android:26cd2643105a7be529f428",
+        "android_client_info": {
+          "package_name": "com.example.todolistcompose"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgXUA14EsyNQBIdSv71rvUBwDxBgmz4DY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
